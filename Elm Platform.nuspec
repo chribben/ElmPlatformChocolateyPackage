@@ -3,9 +3,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
-    <id>elmplatform</id>
+    <id>elm-platform</id>
     <title>Elm Platform</title>
-    <version>0.13</version>
+    <version>0.14</version>
     <authors>Evan Czaplicki</authors>
     <owners>Christian Jacobsen</owners>
     <summary>A bundle of all Elm tools: elm, elm-reactor, elm-repl, and elm-get.</summary>
