@@ -12,9 +12,9 @@ $local_key     = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*'
 $machine_key   = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*'
 $machine_key6432 = 'HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*'
 
-$key = Get-ItemProperty -Path @($machine_key6432,$machine_key, $local_key) `
-                        -ErrorAction SilentlyContinue `
-         | ? { $_.DisplayName -like "$softwareName" }
+$key = @(Get-ItemProperty -Path @($machine_key6432,$machine_key, $local_key) `
+                          -ErrorAction SilentlyContinue `
+         | ? { $_.DisplayName -like "$softwareName" })
 
 if ($key.Count -eq 1) {
   $key | % {
