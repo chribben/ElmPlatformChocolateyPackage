@@ -1,25 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>elm-platform</id>
-    <title>Elm Platform</title>
     <version>0.16</version>
-    <authors>Evan Czaplicki</authors>
+    <packageSourceUrl>https://github.com/chribben/ElmPlatformChocolateyPackage</packageSourceUrl>
     <owners>Christian Jacobsen</owners>
-    <summary>A bundle of all Elm tools: elm, elm-reactor, elm-repl, and elm-get.</summary>
-    <description>A bundle of all Elm tools: elm, elm-reactor, elm-repl, and elm-get.</description>
-    <projectUrl>http://elm-lang.org</projectUrl>
-    <tags>Elm FRP</tags>
-    <copyright></copyright>
+    <title>Elm Platform (Install)</title>
+    <authors>Evan Czaplicki</authors>
+    <projectUrl>http://elm-lang.org/</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/chribben/ElmPlatformChocolateyPackage/master/icons/elm-platform.png</iconUrl>
+    <copyright>Copyright (c) 2014-2015, Evan Czaplicki</copyright>
     <licenseUrl>https://github.com/elm-lang/elm-platform/blob/master/LICENSE</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>http://cdn.rawgit.com/chribben/elmplatformchocolateypackage/master/icons/icon.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
-    <releaseNotes></releaseNotes>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/elm-lang/elm-platform</projectSourceUrl>
+    <docsUrl>http://elm-lang.org/get-started</docsUrl>
+    <mailingListUrl>https://groups.google.com/forum/?fromgroups#!forum/elm-discuss</mailingListUrl>
+    <bugTrackerUrl>https://github.com/elm-lang/elm-platform/issues</bugTrackerUrl>
+    <tags>elm-platform elm FRP admin</tags>
+    <summary>A bundle of all Elm tools: elm, elm-reactor, elm-repl, and elm-get.</summary>
+    <description>
+    A bundle of all [Elm](http://elm-lang.org) tools, usable through the `elm` executable.
+
+    This bundles together a bunch of projects that make it nice to use Elm: [`elm-compiler`][compiler], [`elm-make`][make], [`elm-reactor`][reactor], [`elm-repl`][repl], and [`elm-package`][package].
+
+    [compiler]: https://github.com/elm-lang/elm-compiler
+    [make]: https://github.com/elm-lang/elm-make
+    [reactor]: https://github.com/elm-lang/elm-reactor
+    [repl]: https://github.com/elm-lang/elm-repl
+    [package]: https://github.com/elm-lang/elm-package
+    </description>
+    <releaseNotes>http://elm-lang.org/blog#release-notes</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
