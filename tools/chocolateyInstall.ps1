@@ -1,1 +1,1 @@
-﻿Install-ChocolateyPackage 'elm-platform' 'EXE' '/SILENT' 'http://install.elm-lang.org/Elm-Platform-0.15.exe'
+﻿Install-ChocolateyPackage 'elm-platform' 'EXE' '/SILENT' 'http://install.elm-lang.org/Elm-Platform-0.16.exe'
