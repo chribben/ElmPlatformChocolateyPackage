@@ -17,7 +17,7 @@
     <docsUrl>http://elm-lang.org/get-started</docsUrl>
     <mailingListUrl>https://groups.google.com/forum/?fromgroups#!forum/elm-discuss</mailingListUrl>
     <bugTrackerUrl>https://github.com/elm-lang/elm-platform/issues</bugTrackerUrl>
-    <tags>elm-platform elm FRP admin</tags>
+    <tags>elm-platform elm admin</tags>
     <summary>A bundle of all Elm tools: elm, elm-reactor, elm-repl, and elm-get.</summary>
     <description>
     A bundle of all [Elm](http://elm-lang.org) tools, usable through the `elm` executable.
