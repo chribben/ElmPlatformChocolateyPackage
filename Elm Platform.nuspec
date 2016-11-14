@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>elm-platform</id>
-    <version>0.17.1</version>
+    <version>0.18</version>
     <packageSourceUrl>https://github.com/chribben/ElmPlatformChocolateyPackage</packageSourceUrl>
     <owners>Christian Jacobsen</owners>
     <title>Elm Platform (Install)</title>

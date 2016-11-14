@@ -2,7 +2,7 @@
 
 
 $packageName= 'elm-platform'
-$url        = 'http://install.elm-lang.org/Elm-Platform-0.17.1.exe'
+$url        = 'http://install.elm-lang.org/Elm-Platform-0.18.exe'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -11,7 +11,7 @@ $packageArgs = @{
   silentArgs   = '/S'
   validExitCodes= @(0)
   softwareName  = 'Elm Platform*'
-  checksum      = '4cc68df57bf8e5c57c47fa88d14b21b56f282dc9'
+  checksum      = 'DDE74399836C6447F7A16D7304B940B207544F47'
   checksumType  = 'sha1'
 }
 
